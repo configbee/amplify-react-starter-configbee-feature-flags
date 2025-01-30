@@ -29,17 +29,19 @@ For detailed deployment instructions, refer to the [AWS Amplify documentation](h
    During signup, you'll create your first project and environment. Additional projects can be added as needed.
    
 3. **Configure Environment Variables in AWS Amplify**  
-   In the AWS Amplify Console, go to **Hosting → Environment Variables**, and add the following variables (available in the *SDK Integrations* section of ConfigBee):
-
+   In the AWS Amplify Console, go to **Hosting → Environment Variables**, and add the following variables.
+   
    | Variable | Description |
    | ---- | ---- |
    | VITE_CB_ACCOUNT_ID | Your ConfigBee account ID |
    | VITE_CB_PROJECT_ID | Your ConfigBee project ID |
    | VITE_CB_ENV_ID | Your ConfigBee environment ID |
 
+   To find these values in **ConfigBee** Navigate to **Project → Environment → SDK Integrations**.
+   
    **Note**: After adding/updating environment variables, redeploy the app using **Branch → Deployments → Redeploy this version**.
 
-4. **Add Feature Flags & Options in ConfigBee**  
+5. **Add Feature Flags & Options in ConfigBee**  
    Navigate to **Flags & Options** in your ConfigBee project and add the following:
 
    | Type | Key | Name |
@@ -52,7 +54,7 @@ For detailed deployment instructions, refer to the [AWS Amplify documentation](h
    | Flag | functions.enabled | Functions Enabled |
    | Flag | fetch.data.enabled | Fetch Data Enabled |
 
-5. **Update Feature Flags in Real Time**  
+6. **Update Feature Flags in Real Time**  
    You can switch flags on/off or modify option values per environment and publish changes instantly with ConfigBee’s real-time updates.
 
 ## Security
