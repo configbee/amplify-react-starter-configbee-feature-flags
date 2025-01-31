@@ -17,7 +17,7 @@ It works **without ConfigBee’s feature flags**, but by setting up a **ConfigBe
 
 ## Deploying to AWS
 
-Clone this repository or use it directly to deploy the application with AWS Amplify.  
+Fork this repository or use the "Use this template" option to create a new copy of this repository in your GitHub account, then deploy it with AWS Amplify.  
 For detailed deployment instructions, refer to the [AWS Amplify documentation](https://docs.amplify.aws/react/start/quickstart/#deploy-a-fullstack-app-to-aws).
 
 ## Unlocking Hidden Functionalities with ConfigBee Feature Flags
@@ -38,8 +38,9 @@ For detailed deployment instructions, refer to the [AWS Amplify documentation](h
    | VITE_CB_ENV_ID | Your ConfigBee environment ID |
 
    To find these values in **ConfigBee** Navigate to **Project → Environment → SDK Integrations**.
-   
-   **Note**: After adding/updating environment variables, redeploy the app using **Branch → Deployments → Redeploy this version**.
+   For example, your Project could be **My ToDo App**, and your Environment could be **Staging** or **Live**, depending on your setup.\
+   \
+   **Note**: After adding/updating environment variables, redeploy the app in Amplify using **Branch → Deployments → Redeploy this version**.
 
 5. **Add Feature Flags & Options in ConfigBee**  
    Navigate to **Flags & Options** in your ConfigBee project and add the following:
