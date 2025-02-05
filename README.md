@@ -3,6 +3,9 @@
 This repository provides a starter template for creating applications using React+Vite and AWS Amplify, emphasizing easy setup for authentication, API, and database capabilities.  
 We started with the [AWS Amplify Vite-React template](https://github.com/aws-samples/amplify-vite-react-template), improved a few elements, and added **Feature Flags** using [ConfigBee](https://configbee.com/).
 
+#### Watch the setup guide (optional):
+   [![Watch on YouTube](https://img.shields.io/badge/Watch%20on-YouTube-red?logo=youtube)](https://www.youtube.com/watch?v=I_r4FXfGuYg)
+
 ## Overview
 
 This template equips you with a foundational React application integrated with AWS Amplify, optimized for scalability and performance.  
